@@ -813,6 +813,767 @@
       "id": "band-pro-default",
       "deviceKey": "band-pro",
       "aliases": []
+    },
+    {
+      "watchface": {
+        "name": "手环 Pro",
+        "previewKey": "-pro"
+      },
+      "canvas": {
+        "background": "transparent",
+        "width": 212,
+        "height": 520
+      },
+      "wallpaperTransform": {
+        "scale": {
+          "default": 1.11,
+          "min": 1,
+          "max": 4,
+          "step": 0.01,
+          "adjustable": true
+        },
+        "rotation": {
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "step": 1,
+          "adjustable": true
+        }
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 336,
+        "height": 480,
+        "radius": 14
+      },
+      "preview": {
+        "radius": 360
+      },
+      "layers": [
+        {
+          "id": "photo",
+          "name": "壁纸",
+          "type": "wallpaper",
+          "clip": "frame",
+          "blur": 0,
+          "blendMode": "normal",
+          "syncAcrossDevices": true
+        },
+        {
+          "id": "asset-mt4dfdlmj0t",
+          "name": "矩形 1",
+          "type": "asset",
+          "src": "./assets/矩形 1.svg",
+          "clip": "frame",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 344,
+            "height": 132
+          },
+          "transform": {
+            "x": -4,
+            "y": 352,
+            "scale": 1,
+            "rotation": 0
+          },
+          "opacity": {
+            "default": 1,
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "adjustable": true
+          },
+          "blur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "backdropBlur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "blendMode": {
+            "default": "normal",
+            "adjustable": true,
+            "options": [
+              "normal",
+              "multiply",
+              "screen",
+              "overlay",
+              "darken",
+              "lighten",
+              "color-dodge",
+              "color-burn",
+              "hard-light",
+              "soft-light",
+              "difference",
+              "exclusion",
+              "hue",
+              "saturation",
+              "color",
+              "luminosity"
+            ]
+          },
+          "syncAcrossDevices": true
+        },
+        {
+          "id": "asset-mt4dljzoz3w",
+          "name": "矩形 8",
+          "type": "asset",
+          "src": "./assets/矩形 8.png",
+          "clip": "frame",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 170,
+            "height": 49
+          },
+          "transform": {
+            "x": 15,
+            "y": 366,
+            "scale": 1,
+            "rotation": 0
+          },
+          "opacity": {
+            "default": 1,
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "adjustable": true
+          },
+          "blur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "backdropBlur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "blendMode": {
+            "default": "normal",
+            "adjustable": true,
+            "options": [
+              "normal",
+              "multiply",
+              "screen",
+              "overlay",
+              "darken",
+              "lighten",
+              "color-dodge",
+              "color-burn",
+              "hard-light",
+              "soft-light",
+              "difference",
+              "exclusion",
+              "hue",
+              "saturation",
+              "color",
+              "luminosity"
+            ]
+          },
+          "color": {
+            "default": "#689ee8",
+            "options": [
+              "#689ee8"
+            ],
+            "adjustable": true,
+            "allowCustom": true
+          },
+          "syncAcrossDevices": true
+        },
+        {
+          "id": "photo-mt4efa0zb8e",
+          "name": "壁纸层",
+          "type": "wallpaper",
+          "clip": "frame",
+          "blur": {
+            "default": 20,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "blendMode": "normal",
+          "mask": "./assets/9c6f364b7c3e2d1ad4d4d6eb4ad341c3.png",
+          "syncAcrossDevices": true
+        },
+        {
+          "id": "asset-mt4ei7j0h00",
+          "name": "阴影",
+          "type": "asset",
+          "src": "./assets/矩形 12.png",
+          "clip": "frame",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 315,
+            "height": 51
+          },
+          "transform": {
+            "x": 11,
+            "y": 294,
+            "scale": 1,
+            "rotation": 0
+          },
+          "opacity": {
+            "default": 1,
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "adjustable": true
+          },
+          "blur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "backdropBlur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "blendMode": {
+            "default": "normal",
+            "adjustable": true,
+            "options": [
+              "normal",
+              "multiply",
+              "screen",
+              "overlay",
+              "darken",
+              "lighten",
+              "color-dodge",
+              "color-burn",
+              "hard-light",
+              "soft-light",
+              "difference",
+              "exclusion",
+              "hue",
+              "saturation",
+              "color",
+              "luminosity"
+            ]
+          },
+          "syncAcrossDevices": true
+        },
+        {
+          "id": "asset-mt4dzuqr9ui",
+          "name": "矩形 11",
+          "type": "asset",
+          "src": "./assets/矩形 11.svg",
+          "clip": "frame",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 60,
+            "height": 25
+          },
+          "transform": {
+            "x": 248,
+            "y": 308,
+            "scale": 1,
+            "rotation": 0
+          },
+          "opacity": {
+            "default": 1,
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "adjustable": true
+          },
+          "blur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "backdropBlur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "blendMode": {
+            "default": "normal",
+            "adjustable": true,
+            "options": [
+              "normal",
+              "multiply",
+              "screen",
+              "overlay",
+              "darken",
+              "lighten",
+              "color-dodge",
+              "color-burn",
+              "hard-light",
+              "soft-light",
+              "difference",
+              "exclusion",
+              "hue",
+              "saturation",
+              "color",
+              "luminosity"
+            ]
+          },
+          "color": {
+            "default": "#689ee8",
+            "options": [
+              "#689ee8"
+            ],
+            "adjustable": true,
+            "allowCustom": true
+          },
+          "syncAcrossDevices": true
+        },
+        {
+          "id": "asset-mt4eqdcm8wq",
+          "name": "天气",
+          "type": "asset",
+          "src": "./assets/天气.svg",
+          "clip": "frame",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 35,
+            "height": 35
+          },
+          "transform": {
+            "x": 281,
+            "y": 373,
+            "scale": 1,
+            "rotation": 0
+          },
+          "opacity": {
+            "default": 1,
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "adjustable": true
+          },
+          "blur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "backdropBlur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "blendMode": {
+            "default": "normal",
+            "adjustable": true,
+            "options": [
+              "normal",
+              "multiply",
+              "screen",
+              "overlay",
+              "darken",
+              "lighten",
+              "color-dodge",
+              "color-burn",
+              "hard-light",
+              "soft-light",
+              "difference",
+              "exclusion",
+              "hue",
+              "saturation",
+              "color",
+              "luminosity"
+            ]
+          },
+          "color": {
+            "default": "#689ee8",
+            "options": [
+              "#689ee8"
+            ],
+            "adjustable": true,
+            "allowCustom": true
+          },
+          "syncAcrossDevices": true
+        },
+        {
+          "id": "asset-mt4es6bwlfr",
+          "name": "杠",
+          "type": "asset",
+          "src": "./assets/杠.svg",
+          "clip": "frame",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 5,
+            "height": 43
+          },
+          "transform": {
+            "x": 32,
+            "y": 419,
+            "scale": 1,
+            "rotation": 0
+          },
+          "opacity": {
+            "default": 1,
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "adjustable": true
+          },
+          "blur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "backdropBlur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "blendMode": {
+            "default": "normal",
+            "adjustable": true,
+            "options": [
+              "normal",
+              "multiply",
+              "screen",
+              "overlay",
+              "darken",
+              "lighten",
+              "color-dodge",
+              "color-burn",
+              "hard-light",
+              "soft-light",
+              "difference",
+              "exclusion",
+              "hue",
+              "saturation",
+              "color",
+              "luminosity"
+            ]
+          },
+          "color": {
+            "default": "#689ee8",
+            "options": [
+              "#689ee8"
+            ],
+            "adjustable": true,
+            "allowCustom": true
+          },
+          "syncAcrossDevices": true
+        },
+        {
+          "id": "asset-mt4eusxw6gt",
+          "name": "并集",
+          "type": "asset",
+          "src": "./assets/并集.svg",
+          "clip": "frame",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 106,
+            "height": 47
+          },
+          "transform": {
+            "x": 46,
+            "y": 419,
+            "scale": 1,
+            "rotation": 0
+          },
+          "opacity": {
+            "default": 1,
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "adjustable": true
+          },
+          "blur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "backdropBlur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "blendMode": {
+            "default": "normal",
+            "adjustable": true,
+            "options": [
+              "normal",
+              "multiply",
+              "screen",
+              "overlay",
+              "darken",
+              "lighten",
+              "color-dodge",
+              "color-burn",
+              "hard-light",
+              "soft-light",
+              "difference",
+              "exclusion",
+              "hue",
+              "saturation",
+              "color",
+              "luminosity"
+            ]
+          },
+          "color": {
+            "default": "#689ee8",
+            "options": [
+              "#689ee8"
+            ],
+            "adjustable": true,
+            "allowCustom": true
+          },
+          "syncAcrossDevices": true
+        },
+        {
+          "id": "asset-mt4f2mv0bzp",
+          "name": "矩形 5",
+          "type": "asset",
+          "src": "./assets/矩形 5.svg",
+          "clip": "frame",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 43,
+            "height": 43
+          },
+          "transform": {
+            "x": 209,
+            "y": 420,
+            "scale": 1,
+            "rotation": 0
+          },
+          "opacity": {
+            "default": 1,
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "adjustable": true
+          },
+          "blur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "backdropBlur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "blendMode": {
+            "default": "normal",
+            "adjustable": true,
+            "options": [
+              "normal",
+              "multiply",
+              "screen",
+              "overlay",
+              "darken",
+              "lighten",
+              "color-dodge",
+              "color-burn",
+              "hard-light",
+              "soft-light",
+              "difference",
+              "exclusion",
+              "hue",
+              "saturation",
+              "color",
+              "luminosity"
+            ]
+          },
+          "color": {
+            "default": "#689ee8",
+            "options": [
+              "#689ee8"
+            ],
+            "adjustable": true,
+            "allowCustom": true
+          },
+          "syncAcrossDevices": true
+        },
+        {
+          "id": "asset-mt4f3sj0wys",
+          "name": "矩形 5",
+          "type": "asset",
+          "src": "./assets/矩形 5.svg",
+          "clip": "frame",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 43,
+            "height": 43
+          },
+          "transform": {
+            "x": 262,
+            "y": 420,
+            "scale": 1,
+            "rotation": 0
+          },
+          "opacity": {
+            "default": 1,
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "adjustable": true
+          },
+          "blur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "backdropBlur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "blendMode": {
+            "default": "normal",
+            "adjustable": true,
+            "options": [
+              "normal",
+              "multiply",
+              "screen",
+              "overlay",
+              "darken",
+              "lighten",
+              "color-dodge",
+              "color-burn",
+              "hard-light",
+              "soft-light",
+              "difference",
+              "exclusion",
+              "hue",
+              "saturation",
+              "color",
+              "luminosity"
+            ]
+          },
+          "color": {
+            "default": "#689ee3",
+            "options": [
+              "#689ee3"
+            ],
+            "adjustable": true,
+            "allowCustom": true
+          },
+          "syncAcrossDevices": true
+        },
+        {
+          "id": "asset-mt4fa27ozbd",
+          "name": "底栏",
+          "type": "asset",
+          "src": "./assets/底栏.svg",
+          "clip": "frame",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 96,
+            "height": 4
+          },
+          "transform": {
+            "x": 120,
+            "y": 471,
+            "scale": 1,
+            "rotation": 0
+          },
+          "opacity": {
+            "default": 1,
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "adjustable": true
+          },
+          "blur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "backdropBlur": {
+            "default": 0,
+            "min": 0,
+            "max": 30,
+            "step": 1,
+            "adjustable": true
+          },
+          "blendMode": {
+            "default": "normal",
+            "adjustable": true,
+            "options": [
+              "normal",
+              "multiply",
+              "screen",
+              "overlay",
+              "darken",
+              "lighten",
+              "color-dodge",
+              "color-burn",
+              "hard-light",
+              "soft-light",
+              "difference",
+              "exclusion",
+              "hue",
+              "saturation",
+              "color",
+              "luminosity"
+            ]
+          },
+          "color": {
+            "default": "#689ee8",
+            "options": [
+              "#689ee8"
+            ],
+            "adjustable": true,
+            "allowCustom": true
+          },
+          "syncAcrossDevices": true
+        }
+      ],
+      "id": "band-10-default-copy-mtoip4b3",
+      "deviceKey": "band-10",
+      "aliases": []
     }
   ]
 }
